@@ -1,0 +1,53 @@
+h6 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.txt-cntr {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  justify-items: center;
+  grid-gap: 1em;
+  grid-template-areas: "bulb charm squirt"
+                       "bulb-desc charm-desc squirt-desc";
+}
+
+.btn {
+  width: 100%;
+  border-radius: 12px;
+  padding: 1em;
+  font-size: 20px;
+  color: #FFF;
+  background-color: #db0000;
+}
+
+div > p {
+  padding: 5em;
+}
+
+#bulbasaur {
+  grid-area: "bulb";
+}
+
+#charmander {
+  grid-area: "charm";
+}
+
+#squirtle {
+  grid-area: "squirt";
+}
+
+#bulbasaur-desc {
+  grid-area: "bulb-desc";
+}
+
+#charmander-desc {
+  grid-area: "charm-desc";
+}
+
+#squirtle-desc {
+  grid-area: "squirt-desc";
+}
