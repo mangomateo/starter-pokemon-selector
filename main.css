@@ -24,6 +24,10 @@ h6 {
   background-color: #db0000;
 }
 
+.pkmn-desc > p {
+  display: none;
+}
+
 div > p {
   padding: 5em;
 }
