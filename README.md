@@ -1,3 +1,6 @@
+MAY 4.2020 (Time spent: 1 pomodoro)
+- fixed button toggle functions
+
 MAY 3.2020 (Time spent: 1 pomodoro)
 - added button functionality
 
