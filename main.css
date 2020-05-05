@@ -24,8 +24,12 @@ h6 {
   background-color: #db0000;
 }
 
-.pkmn-desc > p {
+.not-visible {
   display: none;
+}
+
+.is-visible {
+  display: block;
 }
 
 div > p {

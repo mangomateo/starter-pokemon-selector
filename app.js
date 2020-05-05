@@ -54,9 +54,16 @@ pkmn3.addEventListener('click', function() {
 
 // Button Functions
 btn1.addEventListener('click', function() {
-  if (pkmnDesc1.style.display = 'none') {
-    pkmnDesc1.style.display = 'block';
-  } else {
-    pkmnDesc1.style.display = 'none';
-  }
+  pkmnDesc1.classList.toggle('is-visible');
+  pkmnDesc1.classList.toggle('not-visible');
+});
+
+btn2.addEventListener('click', function() {
+  pkmnDesc2.classList.toggle('is-visible');
+  pkmnDesc2.classList.toggle('not-visible');
+});
+
+btn3.addEventListener('click', function() {
+  pkmnDesc3.classList.toggle('is-visible');
+  pkmnDesc3.classList.toggle('not-visible');
 });
